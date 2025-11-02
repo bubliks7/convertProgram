@@ -89,6 +89,7 @@ function vatCalculate() {
 
     vatResult.innerHTML = `Value after VAT deduction: <span class="vat-value">${result.toFixed(2)}$</span>`;
 }
-vatValueSubmit.addEventListener('click', vatCalculate)
+vatValueSubmit.addEventListener('click', vatCalculate);
+
 
 // dev: Bubliksiur
