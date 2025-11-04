@@ -69,7 +69,6 @@ function FlatrateCalculate() {
         resultWarning.textContent = 'Enter the correct number';
         return;
     }
-
     let result = price / tax;
 
     FlatrateResult.innerHTML = `Value after deducting the lump sum from the lease agreement: <span class="vat-value">${result.toFixed(2)}$</span>`;
@@ -90,6 +89,5 @@ function vatCalculate() {
     vatResult.innerHTML = `Value after VAT deduction: <span class="vat-value">${result.toFixed(2)}$</span>`;
 }
 vatValueSubmit.addEventListener('click', vatCalculate);
-
 
 // dev: Bubliksiur
